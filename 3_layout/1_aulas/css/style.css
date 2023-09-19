@@ -1,8 +1,18 @@
 @charset "UTF-8";
 
+/* XS */
 h1 {
     color: red;
 }
+
+/* SM */
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+
 
 .btn-primary {
     background-color: red;
