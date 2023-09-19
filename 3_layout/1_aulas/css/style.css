@@ -84,10 +84,20 @@ h1 {
     margin: 0;
 }
 
-.col {
+.col,
+.col-4,
+.col-2,
+.col-11,
+.col-1,
+.col-3,
+.col-6 {
     border: 2px dashed red;
     height: 100%;
     margin: 0;
+}
+
+#largura-limitada {
+    max-width: 500px;
 }
 
 
