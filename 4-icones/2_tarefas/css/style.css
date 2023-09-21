@@ -1,0 +1,27 @@
+
+.col {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.col > p {
+    font-size: 2em;
+}
+
+i {
+    font-size: 2em;
+}
+
+.bi-9-circle-fill {
+    color: blue;
+}
+
+.bi.bi-alarm-fill {
+    color: red;
+}
+
+.bi.bi-bicycle {
+    color: green;
+}
+
