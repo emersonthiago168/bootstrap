@@ -1,11 +1,16 @@
 
-.col {
-    border: 1px solid black;
-    padding: 20px;
-    text-align: center;
+.row {
+    margin: 50px;
 }
 
-.col > p {
+.col-6 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.col-6 > p {
     font-size: 2em;
 }
 
