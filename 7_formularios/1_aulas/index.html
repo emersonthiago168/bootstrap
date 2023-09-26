@@ -26,8 +26,27 @@
             <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
             <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
+    </div>
 
+    <!-- form desabilitado -->
+    <div class="col-4 m-4">
 
+        <h2>Formulário Desabilitado</h2>
+        <form>
+            <fieldset disabled>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail: </label>
+                    <input type="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Insira seu e-mail" disabled>
+                    <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail.</div>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Senha: </label>
+                     <input type="password" id="password" class="form-control" placeholder="Insira a sua senha">
+                </div>
+                <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
     </div>
 
 
