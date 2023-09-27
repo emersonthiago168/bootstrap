@@ -50,13 +50,15 @@ body {
     color: #222;
 }
 
-#form-container input[type="submit"] {
+#form-container input[type="submit"],
+#form-container input[type="checkbox"]:checked {
     background-color: #6c63ff;
     border-color: #6c63ff;
 }
 
 .btn.btn-primary {
     width: 100%;
+    margin-top: 25px;
 }
 
 /* IMAGE */
@@ -88,5 +90,9 @@ body {
 
     .col-md-6.order-md-1 {
         padding-top: 0;
-    }  
+    }
+    
+    .btn.btn-primary {
+        margin-top: 15px;
+    }
 }
