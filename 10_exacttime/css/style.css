@@ -127,3 +127,8 @@ body {
 #search-form input::placeholder {
     color: #fff
 }
+
+/* BOTTOM NAVBAR */
+#bottom-navbar-container .container{
+    justify-content: flex-end;
+}
