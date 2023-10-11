@@ -174,3 +174,8 @@ body {
         font-size: 4em;
     }
 }
+
+/* MINI BANNERS */
+#mini-banners {
+    margin-top: -3em;
+}
