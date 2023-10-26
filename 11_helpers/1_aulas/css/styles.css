@@ -1,0 +1,14 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.box {
+    background-color: #f00;
+    height: 50px;
+}
+
+.box.float-end {
+    background-color: blue;
+    width: 50px;
+}
+
