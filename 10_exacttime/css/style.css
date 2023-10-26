@@ -129,7 +129,8 @@ body {
     box-shadow: none;
 }
 
-#search-form input::placeholder {
+#search-form input::placeholder,
+#news-form input::placeholder {
     color: #fff
 }
 
@@ -474,5 +475,15 @@ body {
 #social-container {
     margin: 20px auto;
 }
+
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #626262;
+    transition: .3s;
+}
+
+
 
 
