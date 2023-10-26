@@ -391,3 +391,17 @@ body {
 #insta6 {
     background-image: url('../img/insta6.jpg');
 }
+
+/* FOOTER */ 
+#footer-links-container {
+    border-bottom: 1px solid #626262;
+}
+
+#footer .footer-columms {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
