@@ -484,6 +484,15 @@ body {
     transition: .3s;
 }
 
+#social-container i:hover {
+    color: #c09578;
+}
 
+/* COPY CONTAINER */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+    
+}
 
 
