@@ -422,12 +422,6 @@ body {
 
 }
 
-@media (min-width: 768px) {
-    #footer-links-container li {
-        text-align: left;
-    }
-}
-
 #footer-links-container a {
     text-decoration: none;
 }
@@ -443,4 +437,11 @@ body {
 
 #footer-center h3 {
     font-weight: 900;
+}
+
+#footer-center .store-phone {
+    color: #c09578;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: -15px;
 }
