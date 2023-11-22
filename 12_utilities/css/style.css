@@ -13,3 +13,8 @@ body {
 .box {
     border: 1px solid #f00;
 }
+
+.box-com-wrap {
+    width: 50px;
+    border: 1px solid #f00;
+}
