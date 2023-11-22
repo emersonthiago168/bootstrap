@@ -12,3 +12,8 @@ body {
     width: 50px;
 }
 
+.box-sticky {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
